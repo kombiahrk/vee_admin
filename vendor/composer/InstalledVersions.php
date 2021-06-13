@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '5ad87b9a067cb8e5b6b8730235dff16675d547a2',
+    'reference' => '934eabc8f2c4621c72cc0e52719c9025247507c5',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -606,7 +606,16 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '5ad87b9a067cb8e5b6b8730235dff16675d547a2',
+      'reference' => '934eabc8f2c4621c72cc0e52719c9025247507c5',
+    ),
+    'laravel/legacy-factories' => 
+    array (
+      'pretty_version' => 'v1.1.0',
+      'version' => '1.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5e3fe2fd5fda64e20ea5c74c831a7346294e902a',
     ),
     'laravel/sail' => 
     array (
@@ -616,6 +625,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '77fb31eb48de9971af1fe0c6b47be3da6b869dfd',
+    ),
+    'laravel/scout' => 
+    array (
+      'pretty_version' => 'v9.1.1',
+      'version' => '9.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'ce621bee3c41aad981cde75adcf751d4cea69646',
     ),
     'laravel/tinker' => 
     array (
@@ -652,6 +670,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '9be3b16c877d477357c015cec057548cf9b2a14a',
+    ),
+    'league/glide' => 
+    array (
+      'pretty_version' => '1.7.0',
+      'version' => '1.7.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'ae5e26700573cb678919d28e425a8b87bc71c546',
     ),
     'league/mime-type-detection' => 
     array (
@@ -708,6 +735,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '93d9db91c0235c486875d22f1e08b50bdf3e6eee',
+    ),
+    'nicmart/tree' => 
+    array (
+      'pretty_version' => '0.3.1',
+      'version' => '0.3.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c55ba47c64a3cb7454c22e6d630729fc2aab23ff',
     ),
     'nikic/php-parser' => 
     array (
@@ -952,6 +988,33 @@ private static $installed = array (
       ),
       'reference' => 'e4573f47750dd6c92dca5aee543fa77513cbd8d3',
     ),
+    'pvtl/voyager-blog' => 
+    array (
+      'pretty_version' => '0.2.10',
+      'version' => '0.2.10.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'aa60b2f45ac64fe2f0abb98aff7d4fa66c07ec78',
+    ),
+    'pvtl/voyager-frontend' => 
+    array (
+      'pretty_version' => '1.0.2',
+      'version' => '1.0.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '226ab8708d38eb5011ff61216394125c69bc01e1',
+    ),
+    'pvtl/voyager-pages' => 
+    array (
+      'pretty_version' => '0.2.13',
+      'version' => '0.2.13.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c762f2c4db71868efe7eac53c8f995355405dc24',
+    ),
     'ralouphie/getallheaders' => 
     array (
       'pretty_version' => '3.0.3',
@@ -1157,6 +1220,69 @@ private static $installed = array (
       ),
       'reference' => '8674b1d84ffb47cc59a101f5d5a3b61e87d23796',
     ),
+    'spatie/browsershot' => 
+    array (
+      'pretty_version' => '3.47.0',
+      'version' => '3.47.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4975143f1e5bd0bcb023f00c05d8c6b24e788f2d',
+    ),
+    'spatie/crawler' => 
+    array (
+      'pretty_version' => '6.0.2',
+      'version' => '6.0.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '276ecb429a770474695a1278a9ad3e719fbef259',
+    ),
+    'spatie/image' => 
+    array (
+      'pretty_version' => '1.10.5',
+      'version' => '1.10.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '63a963d0200fb26f2564bf7201fc7272d9b22933',
+    ),
+    'spatie/image-optimizer' => 
+    array (
+      'pretty_version' => '1.4.0',
+      'version' => '1.4.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c22202fdd57856ed18a79cfab522653291a6e96a',
+    ),
+    'spatie/laravel-sitemap' => 
+    array (
+      'pretty_version' => '5.9.2',
+      'version' => '5.9.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'df5c3db511e08a8e64a3d7e28613ab018a99e95d',
+    ),
+    'spatie/robots-txt' => 
+    array (
+      'pretty_version' => '1.0.10',
+      'version' => '1.0.10.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8802a2bee670b3c13cfd21ede0322f72b3efb711',
+    ),
+    'spatie/temporary-directory' => 
+    array (
+      'pretty_version' => '1.3.0',
+      'version' => '1.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f517729b3793bca58f847c5fd383ec16f03ffec6',
+    ),
     'swiftmailer/swiftmailer' => 
     array (
       'pretty_version' => 'v6.2.7',
@@ -1192,6 +1318,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '5f38c8804a9e97d23e0c8d63341088cd8a22d627',
+    ),
+    'symfony/dom-crawler' => 
+    array (
+      'pretty_version' => 'v5.3.0',
+      'version' => '5.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '55fff62b19f413f897a752488ade1bc9c8a19cdd',
     ),
     'symfony/error-handler' => 
     array (
@@ -1440,6 +1575,24 @@ private static $installed = array (
       array (
       ),
       'reference' => 'f24e18b335629f28350457a8c8e0583ea26ea550',
+    ),
+    'teamtnt/laravel-scout-tntsearch-driver' => 
+    array (
+      'pretty_version' => 'v11.5.0',
+      'version' => '11.5.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'ea962275ee5b977af81dccc138a0fa87d062492b',
+    ),
+    'teamtnt/tntsearch' => 
+    array (
+      'pretty_version' => 'v2.7.0',
+      'version' => '2.7.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c7d0f67070ea22e835bb1416b85dee0f74780fdc',
     ),
     'theseer/tokenizer' => 
     array (
