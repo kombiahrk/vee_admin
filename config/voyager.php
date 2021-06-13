@@ -42,7 +42,7 @@ return [
     */
 
     'models' => [
-        //'namespace' => 'App\\Models\\',
+        'namespace' => 'App\\Models\\',
     ],
 
     /*
@@ -148,6 +148,47 @@ return [
             'TCG\\Voyager\\Widgets\\PostDimmer',
             'TCG\\Voyager\\Widgets\\PageDimmer',
         ],
+
+        'data_tables' => [
+            'responsive' => true, // Use responsive extension for jQuery dataTables that are not server-side paginated
+            'stateSave' => true,
+            'columnDefs' => [
+                ['responsivePriority' => 1, 'targets' => 0 ],
+                ['responsivePriority' => 2, 'targets' => -1 ],
+            ],
+            'dom' =>  "<'row'<'col-sm-3'l><'col-sm-6 text-center'B><'col-sm-3'f>><'row'<'col-sm-12'tr>><'row'<'col-sm-5'i><'col-sm-7'p>>",
+            'buttons' => [
+                [
+                    'extend' => 'copy',
+                    'exportOptions' => [
+                        'columns' => "thead th:not(.actions,.noprint)"
+                    ]
+                ],
+                [
+                    'extend' => 'print',
+                    'exportOptions' => [
+                        'columns' => "thead th:not(.actions,.noprint)"
+                    ]
+                ],
+                [
+                    'extend' => 'excel',
+                    'exportOptions' => [
+                        'columns' => "thead th:not(.actions,.noprint)"
+                    ]
+                ],
+                [
+                    'extend' => 'pdf',
+                    'exportOptions' => [
+                        'columns' => "thead th:not(.actions,.noprint)"
+                    ]
+                ],
+                [
+                    'extend' => 'colvis',
+                    'collectionLayout' => 'fixed three-column',
+                    'columns'=> ':not(:last-child)'
+                ],
+            ]
+        ]
 
     ],
 
