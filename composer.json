@@ -16,6 +16,7 @@
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.3",
         "pvtl/voyager-frontend": "^1.0",
+        "pvtl/voyager-page-blocks": "^0.10.1",
         "pvtl/voyager-pages": "^0.2.13",
         "tcg/voyager": "^1.4"
     },

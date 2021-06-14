@@ -33,8 +33,8 @@ class ComposerStaticInita06cf19c0f12c691a2e85398401e27e1
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         'a1af1fc0cffb5f61cbaf64dbe030fdb9' => __DIR__ . '/..' . '/laravel/legacy-factories/helpers.php',
-        '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
         '290dd4ba42f11019134caca05dbefe3f' => __DIR__ . '/..' . '/teamtnt/tntsearch/helper/helpers.php',
+        '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
         '9cdd7b9056abc3081735233ba9dd9c7f' => __DIR__ . '/..' . '/facade/flare-client-php/src/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
@@ -113,6 +113,7 @@ class ComposerStaticInita06cf19c0f12c691a2e85398401e27e1
         'P' => 
         array (
             'Pvtl\\VoyagerPages\\' => 18,
+            'Pvtl\\VoyagerPageBlocks\\' => 23,
             'Pvtl\\VoyagerFrontend\\' => 21,
             'Pvtl\\VoyagerBlog\\' => 17,
             'Psy\\' => 4,
@@ -427,6 +428,10 @@ class ComposerStaticInita06cf19c0f12c691a2e85398401e27e1
         'Pvtl\\VoyagerPages\\' => 
         array (
             0 => __DIR__ . '/..' . '/pvtl/voyager-pages/src',
+        ),
+        'Pvtl\\VoyagerPageBlocks\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/pvtl/voyager-page-blocks/src',
         ),
         'Pvtl\\VoyagerFrontend\\' => 
         array (
@@ -5192,6 +5197,16 @@ class ComposerStaticInita06cf19c0f12c691a2e85398401e27e1
         'Pvtl\\VoyagerFrontend\\Page' => __DIR__ . '/..' . '/pvtl/voyager-frontend/src/Page.php',
         'Pvtl\\VoyagerFrontend\\Providers\\VoyagerFrontendServiceProvider' => __DIR__ . '/..' . '/pvtl/voyager-frontend/src/Providers/VoyagerFrontendServiceProvider.php',
         'Pvtl\\VoyagerFrontend\\Traits\\Breadcrumbs' => __DIR__ . '/..' . '/pvtl/voyager-frontend/src/Traits/Breadcrumbs.php',
+        'Pvtl\\VoyagerPageBlocks\\Commands\\InstallCommand' => __DIR__ . '/..' . '/pvtl/voyager-page-blocks/src/Commands/InstallCommand.php',
+        'Pvtl\\VoyagerPageBlocks\\Commands\\SeedCommand' => __DIR__ . '/..' . '/pvtl/voyager-page-blocks/src/Commands/SeedCommand.php',
+        'Pvtl\\VoyagerPageBlocks\\Http\\Controllers\\PageBlockController' => __DIR__ . '/..' . '/pvtl/voyager-page-blocks/src/Http/Controllers/PageBlockController.php',
+        'Pvtl\\VoyagerPageBlocks\\Http\\Controllers\\PageController' => __DIR__ . '/..' . '/pvtl/voyager-page-blocks/src/Http/Controllers/PageController.php',
+        'Pvtl\\VoyagerPageBlocks\\MockedModel' => __DIR__ . '/..' . '/pvtl/voyager-page-blocks/src/MockedModel.php',
+        'Pvtl\\VoyagerPageBlocks\\Page' => __DIR__ . '/..' . '/pvtl/voyager-page-blocks/src/Page.php',
+        'Pvtl\\VoyagerPageBlocks\\PageBlock' => __DIR__ . '/..' . '/pvtl/voyager-page-blocks/src/PageBlock.php',
+        'Pvtl\\VoyagerPageBlocks\\Providers\\PageBlocksServiceProvider' => __DIR__ . '/..' . '/pvtl/voyager-page-blocks/src/Providers/PageBlocksServiceProvider.php',
+        'Pvtl\\VoyagerPageBlocks\\Traits\\Blocks' => __DIR__ . '/..' . '/pvtl/voyager-page-blocks/src/Traits/Blocks.php',
+        'Pvtl\\VoyagerPageBlocks\\Validators\\BlockValidators' => __DIR__ . '/..' . '/pvtl/voyager-page-blocks/src/Validators/BlockValidators.php',
         'Pvtl\\VoyagerPages\\Commands\\InstallCommand' => __DIR__ . '/..' . '/pvtl/voyager-pages/src/Commands/InstallCommand.php',
         'Pvtl\\VoyagerPages\\Helpers\\Routes' => __DIR__ . '/..' . '/pvtl/voyager-pages/src/Helpers/Routes.php',
         'Pvtl\\VoyagerPages\\Http\\Controllers\\PageController' => __DIR__ . '/..' . '/pvtl/voyager-pages/src/Http/Controllers/PageController.php',

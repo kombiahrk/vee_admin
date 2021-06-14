@@ -57,6 +57,7 @@ return array(
     'Ramsey\\Uuid\\' => array($vendorDir . '/ramsey/uuid/src'),
     'Ramsey\\Collection\\' => array($vendorDir . '/ramsey/collection/src'),
     'Pvtl\\VoyagerPages\\' => array($vendorDir . '/pvtl/voyager-pages/src'),
+    'Pvtl\\VoyagerPageBlocks\\' => array($vendorDir . '/pvtl/voyager-page-blocks/src'),
     'Pvtl\\VoyagerFrontend\\' => array($vendorDir . '/pvtl/voyager-frontend/src'),
     'Pvtl\\VoyagerBlog\\' => array($vendorDir . '/pvtl/voyager-blog/src'),
     'Psy\\' => array($vendorDir . '/psy/psysh/src'),

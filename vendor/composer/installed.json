@@ -5411,6 +5411,68 @@
             "install-path": "../pvtl/voyager-frontend"
         },
         {
+            "name": "pvtl/voyager-page-blocks",
+            "version": "0.10.1",
+            "version_normalized": "0.10.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pvtl/voyager-page-blocks.git",
+                "reference": "eef02f16dee048d801c5a4b4d360332d3e5ce8b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pvtl/voyager-page-blocks/zipball/eef02f16dee048d801c5a4b4d360332d3e5ce8b5",
+                "reference": "eef02f16dee048d801c5a4b4d360332d3e5ce8b5",
+                "shasum": ""
+            },
+            "require": {
+                "pvtl/voyager-frontend": ">=0.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5"
+            },
+            "time": "2021-01-25T05:51:44+00:00",
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Pvtl\\VoyagerPageBlocks\\Providers\\PageBlocksServiceProvider"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [],
+                "psr-4": {
+                    "Pvtl\\VoyagerPageBlocks\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pivotal Agency",
+                    "email": "tech@pivotalagency.com.au",
+                    "homepage": "http://pivotalagency.com.au"
+                }
+            ],
+            "description": "Ahoy! - A package to implement page blocks into Voyager",
+            "keywords": [
+                "blocks",
+                "frontend",
+                "laravel",
+                "page",
+                "voyager"
+            ],
+            "support": {
+                "issues": "https://github.com/pvtl/voyager-page-blocks/issues",
+                "source": "https://github.com/pvtl/voyager-page-blocks/tree/0.10.1"
+            },
+            "install-path": "../pvtl/voyager-page-blocks"
+        },
+        {
             "name": "pvtl/voyager-pages",
             "version": "0.2.13",
             "version_normalized": "0.2.13.0",

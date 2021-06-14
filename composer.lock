@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "661dfad540c0a5c98bbf17ebc06e03df",
+    "content-hash": "bce72e39dbb1257485c8e93978f60495",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -3704,6 +3704,65 @@
                 "source": "https://github.com/pvtl/voyager-frontend/tree/1.0.2"
             },
             "time": "2020-11-02T01:20:58+00:00"
+        },
+        {
+            "name": "pvtl/voyager-page-blocks",
+            "version": "0.10.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pvtl/voyager-page-blocks.git",
+                "reference": "eef02f16dee048d801c5a4b4d360332d3e5ce8b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pvtl/voyager-page-blocks/zipball/eef02f16dee048d801c5a4b4d360332d3e5ce8b5",
+                "reference": "eef02f16dee048d801c5a4b4d360332d3e5ce8b5",
+                "shasum": ""
+            },
+            "require": {
+                "pvtl/voyager-frontend": ">=0.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Pvtl\\VoyagerPageBlocks\\Providers\\PageBlocksServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "classmap": [],
+                "psr-4": {
+                    "Pvtl\\VoyagerPageBlocks\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pivotal Agency",
+                    "email": "tech@pivotalagency.com.au",
+                    "homepage": "http://pivotalagency.com.au"
+                }
+            ],
+            "description": "Ahoy! - A package to implement page blocks into Voyager",
+            "keywords": [
+                "blocks",
+                "frontend",
+                "laravel",
+                "page",
+                "voyager"
+            ],
+            "support": {
+                "issues": "https://github.com/pvtl/voyager-page-blocks/issues",
+                "source": "https://github.com/pvtl/voyager-page-blocks/tree/0.10.1"
+            },
+            "time": "2021-01-25T05:51:44+00:00"
         },
         {
             "name": "pvtl/voyager-pages",
