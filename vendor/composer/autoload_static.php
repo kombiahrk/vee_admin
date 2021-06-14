@@ -115,6 +115,8 @@ class ComposerStaticInita06cf19c0f12c691a2e85398401e27e1
             'Pvtl\\VoyagerPages\\' => 18,
             'Pvtl\\VoyagerPageBlocks\\' => 23,
             'Pvtl\\VoyagerFrontend\\' => 21,
+            'Pvtl\\VoyagerForms\\Database\\' => 27,
+            'Pvtl\\VoyagerForms\\' => 18,
             'Pvtl\\VoyagerBlog\\' => 17,
             'Psy\\' => 4,
             'Psr\\SimpleCache\\' => 16,
@@ -436,6 +438,14 @@ class ComposerStaticInita06cf19c0f12c691a2e85398401e27e1
         'Pvtl\\VoyagerFrontend\\' => 
         array (
             0 => __DIR__ . '/..' . '/pvtl/voyager-frontend/src',
+        ),
+        'Pvtl\\VoyagerForms\\Database\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/pvtl/voyager-forms/database',
+        ),
+        'Pvtl\\VoyagerForms\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/pvtl/voyager-forms/src',
         ),
         'Pvtl\\VoyagerBlog\\' => 
         array (
@@ -5180,6 +5190,18 @@ class ComposerStaticInita06cf19c0f12c691a2e85398401e27e1
         'Pvtl\\VoyagerBlog\\Commands\\InstallCommand' => __DIR__ . '/..' . '/pvtl/voyager-blog/src/Commands/InstallCommand.php',
         'Pvtl\\VoyagerBlog\\Http\\Controllers\\PostController' => __DIR__ . '/..' . '/pvtl/voyager-blog/src/Http/Controllers/PostController.php',
         'Pvtl\\VoyagerBlog\\Providers\\BlogServiceProvider' => __DIR__ . '/..' . '/pvtl/voyager-blog/src/Providers/BlogServiceProvider.php',
+        'Pvtl\\VoyagerForms\\Commands\\InstallCommand' => __DIR__ . '/..' . '/pvtl/voyager-forms/src/Commands/InstallCommand.php',
+        'Pvtl\\VoyagerForms\\Enquiry' => __DIR__ . '/..' . '/pvtl/voyager-forms/src/Enquiry.php',
+        'Pvtl\\VoyagerForms\\Form' => __DIR__ . '/..' . '/pvtl/voyager-forms/src/Form.php',
+        'Pvtl\\VoyagerForms\\FormInput' => __DIR__ . '/..' . '/pvtl/voyager-forms/src/FormInput.php',
+        'Pvtl\\VoyagerForms\\Forms' => __DIR__ . '/..' . '/pvtl/voyager-forms/src/Forms.php',
+        'Pvtl\\VoyagerForms\\Http\\Controllers\\EnquiryController' => __DIR__ . '/..' . '/pvtl/voyager-forms/src/Http/Controllers/EnquiryController.php',
+        'Pvtl\\VoyagerForms\\Http\\Controllers\\FormController' => __DIR__ . '/..' . '/pvtl/voyager-forms/src/Http/Controllers/FormController.php',
+        'Pvtl\\VoyagerForms\\Http\\Controllers\\InputController' => __DIR__ . '/..' . '/pvtl/voyager-forms/src/Http/Controllers/InputController.php',
+        'Pvtl\\VoyagerForms\\Mail\\Enquiry' => __DIR__ . '/..' . '/pvtl/voyager-forms/src/Mail/Enquiry.php',
+        'Pvtl\\VoyagerForms\\Providers\\VoyagerFormsServiceProvider' => __DIR__ . '/..' . '/pvtl/voyager-forms/src/Providers/VoyagerFormsServiceProvider.php',
+        'Pvtl\\VoyagerForms\\Traits\\DataType' => __DIR__ . '/..' . '/pvtl/voyager-forms/src/Traits/DataType.php',
+        'Pvtl\\VoyagerForms\\Validators\\FormValidators' => __DIR__ . '/..' . '/pvtl/voyager-forms/src/Validators/FormValidators.php',
         'Pvtl\\VoyagerFrontend\\BlogPost' => __DIR__ . '/..' . '/pvtl/voyager-frontend/src/BlogPost.php',
         'Pvtl\\VoyagerFrontend\\Commands\\GenerateSearchIndices' => __DIR__ . '/..' . '/pvtl/voyager-frontend/src/Commands/GenerateSearchIndices.php',
         'Pvtl\\VoyagerFrontend\\Commands\\GenerateSitemap' => __DIR__ . '/..' . '/pvtl/voyager-frontend/src/Commands/GenerateSitemap.php',

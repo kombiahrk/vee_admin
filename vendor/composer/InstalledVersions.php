@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '3a6e0995926d8881f32ffc84aa49e3801ef4a08d',
+    'reference' => '147245b43f2da97b7ac62c7fcab0c3f1f8c7a972',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -606,7 +606,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '3a6e0995926d8881f32ffc84aa49e3801ef4a08d',
+      'reference' => '147245b43f2da97b7ac62c7fcab0c3f1f8c7a972',
     ),
     'laravel/legacy-factories' => 
     array (
@@ -996,6 +996,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'aa60b2f45ac64fe2f0abb98aff7d4fa66c07ec78',
+    ),
+    'pvtl/voyager-forms' => 
+    array (
+      'pretty_version' => '0.4.10',
+      'version' => '0.4.10.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '15d0adaa2d6e8fa67fdc65e38952bd2663dc3f60',
     ),
     'pvtl/voyager-frontend' => 
     array (
