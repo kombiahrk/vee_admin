@@ -15,6 +15,7 @@
         "laravel/framework": "^8.40",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.3",
+        "maatwebsite/excel": "^3.1",
         "pvtl/voyager-blog": "^0.2.10",
         "pvtl/voyager-forms": "^0.4.10",
         "pvtl/voyager-frontend": "^1.0",
