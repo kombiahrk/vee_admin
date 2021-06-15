@@ -174,7 +174,7 @@ class PageBlockController extends VoyagerBaseController
 
         if ($request->input('type') === 'include') {
             $type = $request->input('type');
-            $path = '\Pvtl\VoyagerFrontend\Http\Controllers\PostController::recentBlogPosts()';
+            $path = '\Pvtl\VoyagerFrontend\Http\Controllers\PostController::recentBlogPosts(2)';
         } else {
             list($type, $path) = explode('|', $request->input('type'));
         }
